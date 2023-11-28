@@ -1,0 +1,31 @@
+.button{
+    border-radius: 4px;
+    border: none;
+    font-family: 'Space Mono', monospace;
+    font-size: 16px;
+    cursor: pointer;
+    &:hover {
+        background-color: var(--colors-primary-lightgrey);
+        color: var(--colors-primary-dark);
+        transition:  background-color 0.3s ease;
+    }
+    &:disabled{
+        background-color: var(--colors-primary-darkgrey);
+        color: var(--colors-primary-dark);
+        pointer-events: none;
+    }
+    &:active{
+        background-color: var(--colors-primary);
+        color: var(--colors-primary-dark);
+    }
+}
+
+.primary{
+    background-color: var(--colors-primary-dark);
+    color: var(--colors-primary-light);
+}
+
+.secondary{
+    background-color: var(--colors-primary);
+    color: var(--colors-primary-dark);
+}
