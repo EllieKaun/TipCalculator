@@ -5,7 +5,7 @@ import { ResetComponent, } from 'components/features/ResetComponent';
 import { useBillData, } from 'store/billData';
 
 
-const CulcPage = () => {
+const CalcPage = () => {
 
   const { changeField, bill, amount, } = useBillData();
 
@@ -27,4 +27,4 @@ const CulcPage = () => {
 };
 
 
-export default CulcPage;
+export default CalcPage;

@@ -1,1 +1,1 @@
-export { default as CulcPage, } from './CalcPage';
+export { default as CalcPage, } from './CalcPage';
